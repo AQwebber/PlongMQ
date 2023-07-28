@@ -68,11 +68,11 @@ body {
 .page-name{
   text-align: end;
   background:green;
-  width:130px;
+  width:132px;
   position: absolute;
   right: 15px;
   top:30px;
-  font-size: 26px;
+  font-size: 25px;
   color: darkred;
   border-radius: 7px;
   animation-name: pName;
