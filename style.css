@@ -1,0 +1,123 @@
+body {
+    font-size: 15pt;
+    background: teal;
+    font-family: times new roman;
+}
+
+/*Main*/
+.main{
+  height: 70px;
+  background: darkgreen;
+  border-radius:8px;
+  animation-name: boxx;
+  animation-duration: 1.1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes boxx{
+  0%{
+    border: 1.2px solid aqua;
+  }
+  100%{
+    border: 1.2px solid orange;
+  }
+}
+
+/*Menu button*/
+.menu-button .links{
+  display:none;
+}
+
+.menu-button{
+  font-size: 35px;
+  text-align: left;
+  background:green;
+  width:92px;
+  position: absolute;
+  top:25px;
+  left:15px;
+  color: darkred;
+  box-shadow: 3px 3px 4px orange;
+  border-radius: 7px;
+  border-style: double;
+}
+
+.menu-button:hover{
+  color: aquamarine;
+}
+
+.menu-button:hover .links{
+  display:block;
+}
+
+.links{
+  font-size: 25px;
+  padding:15px;
+  text-decoration: none;
+  cursor: pointer;
+  color: darkred;
+}
+
+.links:hover{
+  color:aqua;
+  background: teal;
+  border-radius: 7px;
+}
+
+/*Page name*/
+.page-name{
+  text-align: end;
+  background:green;
+  width:125px;
+  position: absolute;
+  right: 15px;
+  top:30px;
+  font-size: 30px;
+  color: darkred;
+  border-radius: 7px;
+  animation-name: pName;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  border-style: double;
+  text-shadow: 2px 2px 3px orange;
+}
+
+@keyframes pName{
+  0%{
+    box-shadow: 3px 3px 4px orange;
+  }
+  50%{
+    box-shadow: 3px 3px 4px red;
+  }
+  100%{
+    box-shadow: 3px 3px 4px orange;
+  }
+}
+
+/*content*/
+.surprise{
+  border-radius: 7px;
+  animation-name: forHer;
+  animation-duration: .9s;
+  animation-iteration-count: infinite;
+  background: darkgreen;
+}
+
+@keyframes forHer{
+  0%{
+    border: 1px solid aqua;
+  }
+  50%{
+    border: 1px solid lime;
+  }
+  100%{
+    border: 1px solid aqua;
+  }
+}
+
+
+h3{
+  color: darkgray;
+  text-shadow: 2px 2px 3px blue;
+  text-indent: 1cm;
+}
