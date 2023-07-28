@@ -29,7 +29,7 @@ body {
 }
 
 .menu-button{
-  font-size: 35px;
+  font-size: 30px;
   text-align: left;
   background:green;
   width:92px;
@@ -72,7 +72,7 @@ body {
   position: absolute;
   right: 15px;
   top:30px;
-  font-size: 30px;
+  font-size: 27px;
   color: darkred;
   border-radius: 7px;
   animation-name: pName;
